@@ -1,0 +1,14 @@
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+@import 'variables';
+@import 'function';
+
+$backColor: rgb(84,162,154), linear-gradient(90deg, rgba(84,162,154,1) 4%, rgba(106,116,115,0.4265056364342612) 100%);
+
+
+body {
+    background-color: $backColor;
+
+   /* LASCIO PER PROMEMORIA   background: rgb(84,162,154);
+                              background: linear-gradient(90deg, rgba(84,162,154,1) 4%, rgba(106,116,115,0.4265056364342612) 100%); */    
+}
+

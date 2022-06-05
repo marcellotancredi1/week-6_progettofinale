@@ -1,0 +1,9 @@
+@mixin coloreSfondo($chiaro:true) {
+    @if $chiaro {
+        background-color: $sfondochiaro;
+        color: $testoscuro;
+    } @else {
+        background-color: $sfondoscuro;
+        color: $testochiaro;
+    }
+}
